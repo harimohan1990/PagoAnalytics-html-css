@@ -6,7 +6,7 @@
     margin:0;
     padding:0;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 body{
     background-color:#FFFFFF;
@@ -97,17 +97,27 @@ aside {
     text-align: left;
     font-size: 18px;
     font-weight: 700;
+    margin-left: 59x;
+    padding-left: 33px;
 }
 .body-para{
     font-family: 'Poppins', sans-serif;
     text-align: left;
     font-size: 10px;
+    width: 61%;
+    display: inline-block;
+}
+.image-container{
+    
+    width: 56px;
+    float: right;
+    margin-top: 103px;
+}
+.clearfix{
+    overflow: auto;
 }
 .wrapper-supervisor img, .wrapper-Team_builder img, .wrapper-Karma img, .wrapper-calculator img {
-    float: right;
-    position: relative;
-    top: 79px;
-    width: 55px;
+   width:100%;
 
 }
 
